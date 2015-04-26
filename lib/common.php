@@ -7,7 +7,7 @@ header('X-Frame-Options: DENY');
 // I can't believe there are PRODUCTION servers that have E_NOTICE turned on. What are they THINKING? -- Kawa
 error_reporting(E_ALL ^ E_NOTICE | E_STRICT);
 
-define('BLARG_VERSION', '1.1');
+define('BLARG_VERSION', '1.1.1');
 define('BLARG_DATE', '4/15/2015');
 
 define('BOARD_ROOT', dirname(__DIR__).'/');
